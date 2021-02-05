@@ -16,9 +16,9 @@ Further data can be collected for each book by using its `book_id` noted in the 
 
 ## Remarks
 
-Given the 2-hour window to complete this challenge, I tried to keep it simple and polished. 
+Given the 2-hour window to complete this challenge, I tried to keep it simple and polished. However, the outcome is only a fraction of the ideas I had in mind! 
 
-Unfortunately, the outcome is only a fraction of the ideas I had in mind! I wish I had more time to make the following tweaks at least:
+I wish I had more time to make the following tweaks:
 * Include total books/pages given the inputs.
 * Compare the heatmap and chord diagram representation of shelves. I was trying for the chord diagram at first (as I had once done for my sample app at the start of the Plotly internship using different data), but it appears some dependencies had been deprecated so I decided to move on for the sake of time. 
 * To include both past and present in one go, I would also convert the year "start" and "end" input boxes to a range slider, and have two sentences somewhat like: (a) I have read [insert average] [dropdown: books, pages] on average per year from [insert min year on slider] to [insert current year]; (b) I plan to read [input box: projected average] [dropdown: books, pages] on average per year from [insert current year] to [insert max year on slider] 
