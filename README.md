@@ -9,6 +9,7 @@ Using my personal [Goodreads](https://www.goodreads.com/) data, I can visualize 
 All data was acquired from [Goodreads](https://www.goodreads.com/).
 
 I exported my personal data as a starting point, but you can do the same if you have a Goodreads account as follows:
+* Sign into [Goodreads](https://www.goodreads.com/).
 * Go to [My Books](https://www.goodreads.com/review/list)
 * Click on [Import and export](https://www.goodreads.com/review/import) under **Tools** on the left
 * To **Export** your books to a .csv file, click on the **Export Library** button at the top of the screen, below the Export heading, then wait for the file to generate. This may take some time if you have a large library. If successful, you will see a **Your export from (date) - (time)** note below the button. Click on that text to download the .csv file.
@@ -33,9 +34,37 @@ Ultimately, there are even more data visualizations one can explore with the pro
 
 ## How to run this app locally
 
-Relocate to the respective app directory 
+Clone the repository:
 
-Install the requirements:
+```
+$ git clone https://github.com/ohaanika/dash-goodreads.git
+```
+
+Relocate to the respective app directory.
+
+```
+$ cd dash-goodreads
+```
+
+It would be advisable to create a separate virtual environment running Python 3:
+
+```
+$ python3 -m virtualenv venv
+```
+
+If UNIX, activate the environment by running:
+
+```
+$ source venv/bin/activate
+```
+
+If Windows, activate the environment by running:
+
+```
+$ venv\Scripts\activate
+```
+
+Install all required packages to this environment:
 
 ```
 $ pip install -r requirements.txt
