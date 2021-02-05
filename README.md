@@ -1,4 +1,4 @@
-# GoodReads 
+# Goodreads Dashboard
 
 ## About this app
 
