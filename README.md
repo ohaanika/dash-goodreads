@@ -6,12 +6,10 @@ Using my personal [Goodreads](https://www.goodreads.com/) data, I can visualize 
 
 ## Data
 
-All data was acquired from [Goodreads](https://www.goodreads.com/).
-
-I exported my personal data as a starting point, but you can do the same if you have a Goodreads account as follows:
+All data was acquired from [Goodreads](https://www.goodreads.com/). I exported my personal data as a starting point, but you can do the same if you have a Goodreads account as follows:
 * Sign into [Goodreads](https://www.goodreads.com/).
-* Go to [My Books](https://www.goodreads.com/review/list)
-* Click on [Import and export](https://www.goodreads.com/review/import) under **Tools** on the left
+* Go to [My Books](https://www.goodreads.com/review/list).
+* Click on [Import and export](https://www.goodreads.com/review/import) under **Tools** on the left.
 * To **Export** your books to a .csv file, click on the **Export Library** button at the top of the screen, below the Export heading, then wait for the file to generate. This may take some time if you have a large library. If successful, you will see a **Your export from (date) - (time)** note below the button. Click on that text to download the .csv file.
 
 Further data can be collected for each book by using its `book_id` noted in the .csv file (i.e. `"https://www.goodreads.com/book/show/" + book_id`) to access its webpage.
